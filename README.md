@@ -1,16 +1,70 @@
-# React + Vite
+# Dice Game 🎲
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple interactive dice game built using React. Select a number and roll the dice to test your guess. Get points for correct guesses and lose points for incorrect ones.
 
-Currently, two official plugins are available:
+## 📸 Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Dice Game](./Screenshot%20(142).png)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Select a number from 1 to 6.
+- Roll the dice to get a random result.
+- Lose points for incorrect guesses.
+- Interactive user interface.
+- Score tracking.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- CSS3
+
+## 🎮 How to Play
+
+1. Select a number from 1 to 6.
+2. Click the dice to roll it.
+3. If the dice result matches your selected number, your score increases.
+4. If your guess is incorrect, your score decreases.
+5. Keep playing and try to improve your score.
+
+## 💡 Concepts Practiced
+
+- React components
+- State management using `useState`
+- Event handling
+- Conditional rendering
+- Random number generation
+- Game logic and score management
+
+## 🚀 Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/aditya4oo4/Dice_Game.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd folderName
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## 👨‍💻 Author
+
+**Aditya Saini**
+
+- GitHub: [@aditya4oo4](https://github.com/aditya4oo4)
