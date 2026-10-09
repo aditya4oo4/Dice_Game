@@ -1,0 +1,86 @@
+.row{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.colFirst img{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.colSecond h1{
+    font-size: 100px;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #111827;
+    color: #ffffff;
+
+    border: 1px solid #374151;
+    border-radius: 14px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 16px 28px;
+    width: 150px;
+    margin-left: 100px;
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+    transition: all 0.3s ease;
+}
+
+
+.input:hover {
+    background-color: #2563eb;
+    border-color: #88adff;
+    transform: translateY(-3px);
+
+}
+
+
+.input:active {
+    transform: scale(0.96);
+    
+}
+
+
+
+.input:hover{
+    
+    background-color: wheat;
+    border: 1px solid black;
+    transition: 0.3s background-color  ease-in;
+    color: black;
+    
+}
+.landImg{
+    width: 580px;
+    height: 480px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.landImg:hover {
+    transform: scale(1.08);
+}
+
+.landImg:active {
+    transform: scale(0.95);
+}

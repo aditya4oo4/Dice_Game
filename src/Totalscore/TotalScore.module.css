@@ -1,0 +1,17 @@
+.main{
+    margin: 10px;
+    max-width: 200px;
+    text-align: center;
+    
+}
+.score{
+    font-size: 100px;
+    
+    /* background-color: red; */
+
+}
+.para{
+    font-size: 25px;
+    
+    
+}
